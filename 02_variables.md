@@ -2,28 +2,31 @@
 
 ## ¿Qué es una variable?
 
-Son contenedores que almacenan datos de forma temporal para que puedan ser utilizados (y, que pueden cambiar de valor) posteriormente. Estan formados por un un espacio en el sistema de almacenaje y un nombre simbólico (o identificador). El tipo y el tamaño de una variable esta definido por el tipo de dato que va a almacenar. Cabe tener en cuenta que el espacio de almacenamiento de una variable es finito (limitado).
+Son contenedores, como cajas, que pueden almacenar cierta cantidad de cosas como dulces, frutas o verduras, el tamaño o el tipo de caja, va a ser determinado según qué hemos guardado en ellas. Siguiendo ese ejemplo, si nuestra caja está llena de manzanas, podríamos decir que nuestra caja es del tipo "frutas".
+<br/>
+A las variables les podemos identificar con un nombre, que podemos darle a gusto propio, sin embargo, es una buena práctica ponerle un nombre, corto, que defina su uso, como: "container", que nos indica que es un contenedor.
 
 ## Tipos de variables.
 
 El tipo de datos que puedes guardar en una variable son:
 
 * ### Cadena
-Almacenan una secuencia de carácteres ordenados compuestas, ya sea por letras del alfabeto, números o simbolos (@, !, /), es decir, frases, nombres, oraciones, etc.
+Almacena una secuencia de caracteres ordenados que siempre van entre comillas, pueden ser dobles o sencillas. Se compone de letras del alfabeto, números o símbolos (@, !, /). Es decir, cuando deseas asignar frases, nombres u oraciones a una variable debes hacerlo con un tipo cadena.
 
 ```
 // Como puedes ver la variable esta identificada como palabra.
 // Y se le asigna la frase "Esto es una cadena" como el valor a almacenar.
 
-var palabra = "¡Esto es una cadena!";
+let palabra = "¡Esto es una cadena!";
 
-var otraPalabra = "tucorreo@correo.com";
+let otraPalabra = "tucorreo@correo.com";
 ```
 
 * ### Números Enteros.
-Son el tipo de variables que almacenan un número limitado de números enteros es decir, que no tienen decimal, tales cual "10, 100, 2". 
+
+Los números enteros, en matemáticas, son el conjunto que contienen los números naturales de menos infinito a infinito positivo. Así pues, las variables de enteros contienen números de ese conjunto, exceptuando los irracionales o decimales, que se redondean, si es que son el resultado de una operación.
 <br/>
-Los números enteros, en matemáticas, son el conjunto que contienen los números naturales de menos infinito a infinito positivo. Así pues las variables de enteros contienen números de ese conjunto, exceptuando los irracionales o decimales, que se redondean, si es que son el resultado de una operación.
+En resumen, esta variable almacena un número que no tienen decimales, ejemplo: 10, 20, 100, etc.
 
 ![Recta Numérica](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Integers-line.svg/706px-Integers-line.svg.png)
 
@@ -31,9 +34,9 @@ Los números enteros, en matemáticas, son el conjunto que contienen los número
 //Las variables NO pueden ser identificadas por un número, 
 //deben de tener, al menos, una letra al inicio.
 
-var diez = 10;
+let diez = 10;
 
-var iso1020 = 1000;
+let iso1020 = 1000;
 ```
 
 * ### Números Reales.
@@ -42,9 +45,9 @@ Conocido como "coma flotane" (*float point* en inglés) almacenan datos decimale
 //Números como 0.324984
 //O resultados de operaciones aritméticas que tienen como resultado irracionales.
 
-var pi = 3.14159265359;
+let pi = 3.14159265359;
 
-var decimal = 0.00000534;
+let decimal = 0.00000534;
 ```
 ![Imagen de Pi](https://as01.epimg.net/tikitakas/imagenes/2017/03/14/portada/1489510011_902538_1489510263_sumario_normal.jpg)
 
@@ -55,8 +58,8 @@ Contienen solo dos tipos de valores, verdadero o falso (true // false) y están 
 //No son los más usados, pero pueden llegar a ser de utilidad
 //Si son asignados para automatizar tareas que requiran de valores no pre-definidos.
 
-var si = true;
-var no = false;
+let verdadero = true;
+let falso = false;
 ```
 
 ## Fuentes
