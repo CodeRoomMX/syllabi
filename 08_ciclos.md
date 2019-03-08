@@ -1,0 +1,2 @@
+# Ciclos
+Como su nombre lo indican, son fragmentos de código que se repiten. También conocidos como búcles o loops, en inglés, nos sirven para realizar acciónes que pueden ser repetitivas y ahorrarnos tiempo y código.
