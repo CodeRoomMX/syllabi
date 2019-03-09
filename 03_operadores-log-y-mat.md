@@ -121,3 +121,6 @@ También podemos usar variables para evaluar igualdades o in-igualdades entre ca
 **PRECAUCIÓN**
 <br/>
 Ten en cuenta que el signo "=" (igual matemático) es el que utilizamos para asignar valores a las variables o constantes, por lo tanto, no nos sirve para operar como igualdad, es un error común usarlo en vez de "Igual a: ==".
+=======
+
+Los operadores son herramientas utilísimas en programación con las cuales podemos discriminar y evaluar entre distintos tipos de valores.
