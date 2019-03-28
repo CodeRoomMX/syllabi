@@ -12,17 +12,18 @@ Las funciónes tienen una estructura y están conformadas por:
 Ejemplo:
 
 ```
-// Le decimos al programa que vamos a usar una función escribiendo la palabra reservada (en inglés) "function".
+/* Le decimos al programa que vamos a usar una función escribiendo la palabra reservada 
+ * (en inglés) "function".
+ * function...
+ */
 
-function...
+/* Separados con un espacio, asignamos el identificador o nombre de la función.
+ * function miPrimeraFuncion...
+ */
 
-// Separados con un espacio, asignamos el identificador o nombre de la función.
-
-function miPrimeraFuncion...
-
-/* Se pone un par de paréntesis, en ellos se introducen los datos de entrada (parámetros) que vamos a recibir
- * del exterior de la función, y, las llaves "{}" en dónde van a ir las instrucciónes que va a seguir esa función,
- * ejemplo:
+/* Se pone un par de paréntesis, en ellos se introducen los datos de entrada (parámetros) que vamos
+ * a recibir del exterior de la función, y, las llaves "{}" en dónde van a ir las instrucciónes que
+ * va a seguir esa función, ejemplo:
  */
 
 function miPrimeraFuncion(){
