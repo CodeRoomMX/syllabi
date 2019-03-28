@@ -11,7 +11,7 @@ Las funciónes tienen una estructura y están conformadas por:
 
 Ejemplo:
 
-```
+```javascript
 /* Le decimos al programa que vamos a usar una función escribiendo la palabra reservada 
  * (en inglés) "function".
  * function...
@@ -27,21 +27,21 @@ Ejemplo:
  */
 
 function miPrimeraFuncion(){
-    let mssg = "Hello World!!!";
+    let msg = "Hello World!!!";
 
     console.log(mssg);
 }
 ```
 
 Para hacer uso de las funciónes que declaremos, debemos invocarlas, o llamarlas, por su identificador o nombre, el programa interpretará esto como: "Ok, quiere hacer uso de su función".
-```
+```javascript
 //Invocamos la función anterior con su nombre y el contenedor de los parametros.
 
 miPrimeraFuncion();
 ```
 
 Si queremos ingresar datos a la función, debemos pasarlos a través de argumentos, estos nos permiten tomar resultados de otros procesos, usarlos para calcular otro resultado, tomar una decisión o invocar otras funciones.
-```
+```javascript
 //Nuestras variables:
 function sumatoria(a, b){
     let res = a + b
