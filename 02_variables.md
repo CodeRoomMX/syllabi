@@ -2,7 +2,9 @@
 
 ## ¿Qué es una variable?
 
-Son contenedores, como cajas, que pueden almacenar cierta cantidad de cosas como dulces, frutas o verduras, el tamaño o el tipo de caja, va a ser determinado según qué hemos guardado en ellas. Siguiendo ese ejemplo, si nuestra caja está llena de manzanas, podríamos decir que nuestra caja es del tipo "frutas".
+Son contenedores, como cajas, que pueden almacenar cierta cantidad de cosas como dulces, frutas o verduras, o simplemente estar vacias. 
+<br/>
+El tamaño o el tipo de caja, va a ser determinado según qué hemos guardado en ellas. Siguiendo ese ejemplo, si nuestra caja está llena de manzanas, podríamos decir que nuestra caja es del tipo "frutas".
 <br/>
 A las variables les podemos identificar con un nombre, que podemos darle a gusto propio, sin embargo, es una buena práctica ponerle un nombre, corto, que defina su uso, como: "container", que nos indica que es un contenedor.
 
